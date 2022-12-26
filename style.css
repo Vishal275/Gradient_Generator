@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+body .buttons {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+body .buttons button {
+    font-size: large;
+    padding:2%;
+    border: none;
+    border-radius: 50px;
+}
